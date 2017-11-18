@@ -2,5 +2,5 @@ def square_array(array)
   # your code here
   array = [1,2,3]
   array.each
-  array*2
+  array**2
 end
