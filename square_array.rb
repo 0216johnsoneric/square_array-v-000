@@ -4,3 +4,6 @@ def square_array(array)
    array.each {|x| newArray << x**2 }
    return newArray
 end
+
+def square_array(array)
+  array.collect {|x| x**2}
